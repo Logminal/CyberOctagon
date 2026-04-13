@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyber Octagon | Кибер-клуб в центре Челябинска</title>
+    <meta
+      name="description"
+      content="Cyber Octagon — кибер-клуб в центре Челябинска. 40 мощных игровых ПК, 5 PS5, 4 игровые зоны, настольный теннис, бильярд, большой экран, кухня от шефа и бар. Работаем круглосуточно."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="ambient ambient-left"></div>
+      <div class="ambient ambient-right"></div>
+      <div class="grid-noise"></div>
+
+      <header class="site-header">
+        <div class="brand">
+          <div class="brand-mark">
+            <img src="./logo.jpg" alt="Логотип Cyber Octagon" class="brand-logo-image" />
+          </div>
+          <div>
+            <p class="brand-kicker">cyber club chelyabinsk</p>
+            <a href="#top" class="brand-name">Cyber Octagon</a>
+          </div>
+        </div>
+
+        <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="top-nav">
+          <a href="#inside">Клуб</a>
+          <a href="#zones">Зоны</a>
+          <a href="#prices">Прайс</a>
+          <a href="#contact">Контакты</a>
+        </nav>
+
+        <a href="tel:+79323047474" class="nav-cta">
+          Позвонить
+          <span class="nav-cta__icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7 17L17 7M17 7H8M17 7V16"></path>
+            </svg>
+          </span>
+        </a>
+      </header>
+
+      <main id="top">
+        <section class="hero hero--video reveal">
+          <div class="hero-copy">
+            <div class="eyebrow">
+              <span></span>
+              Кибер-клуб в твоем городе
+            </div>
+
+            <h1>Cyber Octagon</h1>
+            <p class="hero-text hero-text--lead">
+              Игровое пространство в центре Челябинска с фирменной атмосферой, мощным железом
+              и круглосуточным режимом работы.
+            </p>
+            <p class="hero-text">
+              У нас ты найдешь 40 мощных игровых ПК с топовой периферией, пять консолей PS5,
+              настольный теннис, бильярд пул, огромный экран для трансляций, вкуснейшую еду
+              от шеф-повара и большой ассортимент напитков на баре.
+            </p>
+
+            <div class="hero-actions">
+              <a href="tel:+79323047474" class="primary-button">
+                +7 (932) 304-74-74
+                <span class="primary-button__icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M7 17L17 7M17 7H8M17 7V16"></path>
+                  </svg>
+                </span>
+              </a>
+              <a href="https://t.me/cyber_octagon" class="secondary-button">Мы в Telegram</a>
+            </div>
+
+            <div class="hero-stats">
+              <article class="stat-card">
+                <span class="stat-card__label">Игровые станции</span>
+                <strong>40 ПК</strong>
+                <p>Четыре разные зоны под ваш бюджет, темп игры и любимые девайсы.</p>
+              </article>
+              <article class="stat-card">
+                <span class="stat-card__label">Консольная линия</span>
+                <strong>5 PS5</strong>
+                <p>Плюс отдельные сценарии для PS5, PS5 Premium и PS5 Room.</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal delay-1">
+            <div class="panel-shell hero-video-shell">
+              <div class="panel-core hero-video-core">
+                <div class="hero-video-meta">
+                  <span>Cyber Octagon</span>
+                  <span>Челябинск / 24-7</span>
+                </div>
+                <div class="hero-video-frame">
+                  <video
+                    class="hero-video"
+                    src="./cyber-octagon-hero.mp4"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    preload="auto"
+                  ></video>
+                  <div class="hero-video-overlay"></div>
+                </div>
+                <div class="hero-feed">
+                  <div class="feed-line">
+                    <span class="feed-line__title">Адрес</span>
+                    <span>проспект Ленина, 68</span>
+                  </div>
+                  <div class="feed-line">
+                    <span class="feed-line__title">Telegram</span>
+                    <span>t.me/cyber_octagon</span>
+                  </div>
+                  <div class="feed-line feed-line--live">
+                    <span class="feed-line__title">Статус</span>
+                    <span>Открыто круглосуточно</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="floating-note floating-note--one">
+              <span class="floating-note__label">Локация</span>
+              <strong>Центр</strong>
+              <p>Удобное расположение в Челябинске для быстрых встреч и длинных ночных сессий.</p>
+            </div>
+
+            <div class="floating-note floating-note--two">
+              <span class="floating-note__label">VK</span>
+              <strong>vk.com/cyberoctagon</strong>
+              <p>Следите за новостями клуба, анонсами и обновлениями зон во ВКонтакте.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="feature-strip reveal" id="inside">
+          <article>
+            <span class="feature-strip__index">01</span>
+            <h2>Фирменная палитра клуба</h2>
+            <p>Сайт собран вокруг цветов логотипа: плотный черный графит, яркий красный контур и чистый светлый текст.</p>
+          </article>
+          <article>
+            <span class="feature-strip__index">02</span>
+            <h2>Четыре игровые зоны</h2>
+            <p>Comfort, VIP, Premium и Premium VIP позволяют выбрать нужный уровень железа, экрана и приватности.</p>
+          </article>
+          <article>
+            <span class="feature-strip__index">03</span>
+            <h2>Не только ПК</h2>
+            <p>PS5, настольный теннис, бильярд пул, большой экран, кухня и бар делают клуб полноценным пространством отдыха.</p>
+          </article>
+        </section>
+
+        <section class="section-head reveal" id="zones">
+          <div class="eyebrow">
+            <span></span>
+            4 игровые зоны
+          </div>
+          <h2>В нашем клубе есть Comfort, VIP, Premium и Premium VIP. Ниже собрали железо и девайсы по каждой зоне.</h2>
+        </section>
+
+        <section class="zones-showcase">
+          <article class="panel-shell zone-spec-card reveal">
+            <div class="panel-core">
+              <div class="zone-spec-card__header">
+                <span class="zone-card__tag">Comfort</span>
+                <span class="zone-spec-card__count">10 ПК</span>
+              </div>
+              <h3>Базовая соревновательная зона с 240 Hz и знакомой посадкой.</h3>
+              <ul class="spec-list">
+                <li><span>Процессор</span><strong>Intel Core i5-10400F</strong></li>
+                <li><span>Оперативная память</span><strong>16 GB 2133 MHZ</strong></li>
+                <li><span>Видеокарта</span><strong>GeForce GTX 1660TI</strong></li>
+                <li><span>Монитор</span><strong>AOC AG251 240 HZ</strong></li>
+                <li><span>Клавиатура</span><strong>Dark Project KD1B</strong></li>
+                <li><span>Наушники</span><strong>Zet Gaming EDGE</strong></li>
+                <li><span>Мышь</span><strong>Razer Deathadder v2</strong></li>
+                <li><span>Кресло</span><strong>TESORO Alphaeon S1</strong></li>
+                <li><span>Коврик</span><strong>ZET Gaming black</strong></li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="panel-shell zone-spec-card reveal delay-1">
+            <div class="panel-core">
+              <div class="zone-spec-card__header">
+                <span class="zone-card__tag">VIP</span>
+                <span class="zone-spec-card__count">2 комнаты по 5 ПК</span>
+              </div>
+              <h3>Отдельные комнаты для закрытых сессий и более свежего железа.</h3>
+              <ul class="spec-list">
+                <li><span>Процессор</span><strong>AMD Ryzen 5 5600 3,5/4,4GHz</strong></li>
+                <li><span>Видеокарта</span><strong>RTX4060 Core Black</strong></li>
+                <li><span>Монитор</span><strong>Samsung Odyssey G4 25&quot; на кронштейне</strong></li>
+                <li><span>Клавиатура</span><strong>Dark Project KD87A</strong></li>
+                <li><span>Наушники</span><strong>HyperX Cloud Core</strong></li>
+                <li><span>Мышь</span><strong>Logitech G102</strong></li>
+                <li><span>Кресло</span><strong>Zone 51 Arena Pro</strong></li>
+                <li><span>Коврик</span><strong>ZET Gaming</strong></li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="panel-shell zone-spec-card reveal delay-1">
+            <div class="panel-core">
+              <div class="zone-spec-card__header">
+                <span class="zone-card__tag">Premium</span>
+                <span class="zone-spec-card__count">10 ПК у бара</span>
+              </div>
+              <h3>Зона рядом с баром с RTX 3060TI и комфортом для длинных каток.</h3>
+              <ul class="spec-list">
+                <li><span>Процессор</span><strong>Intel Core i5-10400F</strong></li>
+                <li><span>Оперативная память</span><strong>16 GB 3000 MHZ</strong></li>
+                <li><span>Видеокарта</span><strong>GeForce RTX 3060TI</strong></li>
+                <li><span>Монитор</span><strong>ASUS TUF Gaming VG249Q 144 HZ</strong></li>
+                <li><span>Клавиатура</span><strong>Dark Project KD1B</strong></li>
+                <li><span>Наушники</span><strong>HyperX Cloud II</strong></li>
+                <li><span>Мышь</span><strong>Logitech G102</strong></li>
+                <li><span>Кресло</span><strong>Zone 51 Arena Pro</strong></li>
+                <li><span>Коврик</span><strong>HyperX</strong></li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="panel-shell zone-spec-card reveal delay-2">
+            <div class="panel-core">
+              <div class="zone-spec-card__header">
+                <span class="zone-card__tag">Premium VIP</span>
+                <span class="zone-spec-card__count">2 комнаты по 5 ПК</span>
+              </div>
+              <h3>Самая сильная конфигурация клуба во втором зале.</h3>
+              <ul class="spec-list">
+                <li><span>Процессор</span><strong>AMD Ryzen 5 5600x</strong></li>
+                <li><span>Оперативная память</span><strong>32 GB 3600 MHZ</strong></li>
+                <li><span>Видеокарта</span><strong>ASUS GeForce RTX 4060 TI</strong></li>
+                <li><span>Монитор</span><strong>ASUS TUF Gaming VG259QM 240 HZ</strong></li>
+                <li><span>Клавиатура</span><strong>Dark Project KD87A</strong></li>
+                <li><span>Наушники</span><strong>HyperX Cloud II</strong></li>
+                <li><span>Мышь</span><strong>Logitech G PRO Wireless</strong></li>
+                <li><span>Кресло</span><strong>Zone 51 Arene Extreme</strong></li>
+                <li><span>Коврик</span><strong>HyperX</strong></li>
+              </ul>
+            </div>
+          </article>
+        </section>
+
+        <section class="section-head reveal" id="prices">
+          <div class="eyebrow">
+            <span></span>
+            Прайс клуба
+          </div>
+          <h2>Все основные тарифы по залам, консолям и дополнительным активностям собраны в одном месте.</h2>
+        </section>
+
+        <section class="pricing-grid reveal">
+          <article class="panel-shell price-card price-card--accent">
+            <div class="panel-core">
+              <div class="price-card__top">
+                <span class="zone-card__tag">Comfort зал</span>
+                <span class="price-card__count">4 места</span>
+              </div>
+              <ul class="price-list">
+                <li><span>1 час</span><strong>160 ₽</strong></li>
+                <li><span>3 часа</span><strong>430 ₽</strong></li>
+                <li><span>5 часов</span><strong>580 ₽</strong></li>
+                <li><span>Ночной пакет</span><strong>720 ₽</strong></li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="panel-shell price-card">
+            <div class="panel-core">
+              <div class="price-card__top">
+                <span class="zone-card__tag">Premium зал</span>
+                <span class="price-card__count">4 места</span>
+              </div>
+              <ul class="price-list">
+                <li><span>1 час</span><strong>190 ₽</strong></li>
+                <li><span>3 часа</span><strong>520 ₽</strong></li>
+                <li><span>5 часов</span><strong>690 ₽</strong></li>
+                <li><span>Ночной пакет</span><strong>820 ₽</strong></li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="panel-shell price-card">
+            <div class="panel-core">
+              <div class="price-card__top">
+                <span class="zone-card__tag">VIP зал</span>
+                <span class="price-card__count">4 места</span>
+              </div>
+              <ul class="price-list">
+                <li><span>1 час</span><strong>220 ₽</strong></li>
+                <li><span>3 часа</span><strong>620 ₽</strong></li>
+                <li><span>5 часов</span><strong>820 ₽</strong></li>
+                <li><span>Ночной пакет</span><strong>1 020 ₽</strong></li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="panel-shell price-card">
+            <div class="panel-core">
+              <div class="price-card__top">
+                <span class="zone-card__tag">Premium VIP зал</span>
+                <span class="price-card__count">4 места</span>
+              </div>
+              <ul class="price-list">
+                <li><span>1 час</span><strong>240 ₽</strong></li>
+                <li><span>3 часа</span><strong>680 ₽</strong></li>
+                <li><span>5 часов</span><strong>920 ₽</strong></li>
+                <li><span>Ночной пакет</span><strong>1 120 ₽</strong></li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="panel-shell price-card">
+            <div class="panel-core">
+              <div class="price-card__top">
+                <span class="zone-card__tag">Настольный теннис</span>
+                <span class="price-card__count">1 стол</span>
+              </div>
+              <ul class="price-list">
+                <li><span>1 час</span><strong>600 ₽</strong></li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="panel-shell price-card">
+            <div class="panel-core">
+              <div class="price-card__top">
+                <span class="zone-card__tag">Бильярд пул</span>
+                <span class="price-card__count">1 стол</span>
+              </div>
+              <ul class="price-list">
+                <li><span>1 час</span><strong>600 ₽</strong></li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="panel-shell price-card">
+            <div class="panel-core">
+              <div class="price-card__top">
+                <span class="zone-card__tag">PS5</span>
+                <span class="price-card__count">2 места</span>
+              </div>
+              <ul class="price-list">
+                <li><span>1 час</span><strong>300 ₽</strong></li>
+                <li><span>3 часа</span><strong>750 ₽</strong></li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="panel-shell price-card">
+            <div class="panel-core">
+              <div class="price-card__top">
+                <span class="zone-card__tag">PS5 Premium</span>
+                <span class="price-card__count">2 места</span>
+              </div>
+              <ul class="price-list">
+                <li><span>1 час</span><strong>390 ₽</strong></li>
+                <li><span>3 часа</span><strong>990 ₽</strong></li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="panel-shell price-card price-card--wide">
+            <div class="panel-core">
+              <div class="price-card__top">
+                <span class="zone-card__tag">PS5 Room</span>
+                <span class="price-card__count">4 места</span>
+              </div>
+              <ul class="price-list">
+                <li><span>1 час</span><strong>590 ₽</strong></li>
+                <li><span>1 час выходные</span><strong>790 ₽</strong></li>
+                <li><span>3 часа</span><strong>1 500 ₽</strong></li>
+                <li><span>3 часа выходные</span><strong>1 990 ₽</strong></li>
+              </ul>
+            </div>
+          </article>
+        </section>
+
+        <section class="cta-section reveal" id="contact">
+          <div class="panel-shell cta-panel">
+            <div class="panel-core cta-panel__core">
+              <div>
+                <div class="eyebrow">
+                  <span></span>
+                  Контакты клуба
+                </div>
+                <h2>Погрузись в атмосферу Cyber Octagon в самом центре Челябинска.</h2>
+              </div>
+
+              <div class="cta-panel__info">
+                <p>+7 (932) 304-74-74</p>
+                <p>проспект Ленина, 68, Челябинск</p>
+                <p>Открыто круглосуточно</p>
+                <p>Telegram: cyber_octagon</p>
+                <p>VK: vk.com/cyberoctagon</p>
+              </div>
+
+              <div class="hero-actions">
+                <a href="tel:+79323047474" class="primary-button">
+                  Позвонить
+                  <span class="primary-button__icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M7 17L17 7M17 7H8M17 7V16"></path>
+                    </svg>
+                  </span>
+                </a>
+                <a href="https://t.me/cyber_octagon" class="secondary-button">Telegram</a>
+                <a href="https://vk.com/cyberoctagon" class="secondary-button">VK</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
